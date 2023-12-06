@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="emailID" value="Manikandan@dynamicbiz.com"/>
+  <test name="dataproviderTest(failed)">
+    <classes>
+      <class name="testNGWithKoushit.LearnDataProvider">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGWithKoushit.LearnDataProvider -->
+    </classes>
+  </test> <!-- dataproviderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

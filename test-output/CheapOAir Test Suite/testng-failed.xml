@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheapOAir Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="All Test Suite(failed)">
+    <classes>
+      <class name="practiceTestNG.CheapOAirMultiTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="longTimeTest"/>
+          <include name="sortOrderOfFlightsTest"/>
+          <include name="flightsSearchHomePageTest"/>
+          <include name="validateUserHomePage"/>
+          <include name="quitBrowser"/>
+          <include name="backToHomePage"/>
+        </methods>
+      </class> <!-- practiceTestNG.CheapOAirMultiTests -->
+    </classes>
+  </test> <!-- All Test Suite(failed) -->
+</suite> <!-- Failed suite [CheapOAir Test Suite] -->

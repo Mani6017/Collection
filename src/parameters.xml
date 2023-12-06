@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CheapOAir Test Suite" guice-stage="DEVELOPMENT">
+  <test name=" Test case" verbose="2">
+	  <parameter name="departure" value="columbus"></parameter>	  
+	  <parameter name="arrival" value="cleveland"></parameter>
+	  <parameter name="browserName" value="chrome"></parameter>
+	  <parameter name="url" value="https://www.cheapoair.com/"></parameter>
+	  <parameter name="response" value="201,300,401"></parameter>
+	  	  
+
+	  
+  <classes>
+      <class name="practiceTestNG.CheapOAirMultiTestsParameters"/>
+      </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

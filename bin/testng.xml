@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CheapOAir Test Suite" guice-stage="DEVELOPMENT">
+  <test name="All Test Suite" verbose="2">
+    <classes>
+      <class name="practiceTestNG.CheapOAirMultiTests"/>
+      
+      <class name="practiceTestNG.CheapOAirSearchTests"/>
+       
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
